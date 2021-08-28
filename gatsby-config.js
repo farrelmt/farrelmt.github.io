@@ -2,6 +2,7 @@
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: "/farrelmt.github.io",
   plugins: [
     "gatsby-transformer-remark",
     "gatsby-transformer-sharp",

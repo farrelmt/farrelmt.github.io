@@ -1,0 +1,24 @@
+.details h2{
+    font-size: 2em;
+    margin-top: 80px;
+}
+
+.details h5{
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.details a{
+    color: grey;
+}
+
+
+.html{
+    margin-top: 40px;
+}
+
+.featured{
+    margin: 40px;
+}
+

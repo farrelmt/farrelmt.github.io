@@ -1,0 +1,27 @@
+.about{
+    text-align: center;
+    margin: 20px;
+}
+
+.about>h1 {
+    font-size: 2em;
+}
+
+.linkmedia {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.linkmedia a {
+    margin: 20px;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width:600px)
+{
+    .linkmedia{
+        display: grid;
+        margin-bottom: 30px;
+    }
+}

@@ -1,0 +1,54 @@
+.portofolio{
+    text-align: center;
+    margin: 0;
+}
+
+.portofolio > h1{
+    font-size: 2em;
+    margin: 20px;
+}
+
+.portofolio > h3{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 80px;
+    margin: 80 20px;
+}
+
+.projects img{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 100%;
+    max-width: 95%;
+    max-height: 95%;
+    border: 8px solid rgb(255, 255, 255);
+}
+
+.projects img:hover {
+    border: 8px solid rgb(200, 200, 200);
+}
+
+.projects h3{
+    text-align: center;
+    margin: 20px auto 0px;
+    font-weight: 500;
+}
+
+.projects p{
+    margin-top: 4px;
+}
+
+@media (max-width:600px) {
+    .projects {
+        display: grid;
+        align-items: center;
+        max-width: 400px;
+        grid-template-columns: 1fr;
+    }
+}

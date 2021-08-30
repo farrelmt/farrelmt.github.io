@@ -15,7 +15,7 @@ export default function ProjectDetails({ data }) {
   return (
     <Layout>
       <div className={styles.details}>
-        <h2>{title}</h2>
+        <h2 className={styles.title}>{title}</h2>
         <div className={styles.featured}>
           <Img fluid={featuredImage.childImageSharp.fluid} />
         </div>
@@ -43,7 +43,7 @@ export const query = graphql`
         }
         featuredImage {
           childImageSharp {
-            fluid {
+            fluid(quality: 10) {
               ...GatsbyImageSharpFluid
             }
           }

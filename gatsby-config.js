@@ -25,5 +25,5 @@ module.exports = {
     title: "farrelmt",
     description: "Personal Website",
   },
-  pathPrefix: "/farrelmt.github.io",
+  pathPrefix: "/",
 }

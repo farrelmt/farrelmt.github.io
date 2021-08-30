@@ -1,7 +1,7 @@
 ---
 title: Drive Safe
 stack: C#
-slug: example-project-3
+slug: drive-safe
 date: 2021-01-01T00:00:00+00:00
 thumb: ../images/thumbnails/DriveSafe_thumbnail.png
 featuredImage: ../images/featured/DriveSafe_featured.png

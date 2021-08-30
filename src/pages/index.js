@@ -1,5 +1,6 @@
 import React from "react"
 // import { graphql } from "gatsby"
+import { withPrefix } from "gatsby-link"
 // import Img from "gatsby-image"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
@@ -9,7 +10,7 @@ export default function Home({ data }) {
   return (
     <Layout>
       <section className={styles.header}>
-        <img src={mascotGIF} alt="mascot" />
+        <img src={withPrefix(mascotGIF)} alt="mascot" />
         {/* <Img fluid={data.file.childImageSharp.fluid} /> */}
 
         <div>

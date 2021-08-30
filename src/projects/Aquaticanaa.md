@@ -7,6 +7,4 @@ thumb: ../images/thumbnails/Aquaticanaa_thumbnail.png
 featuredImage: ../images/featured/Aquaticanaa_featured.png
 ---
 
-<!-- ### Aquaticana -->
-
-    Simulation of being a fish in an aquarium in a first person or third person camera for final project. In the aquarium there are other fish that swim randomly and can be controlled by the user.
+Simulation of being a fish in an aquarium in a first person or third person camera for final project. In the aquarium there are other fish that swim randomly and can be controlled by the user.

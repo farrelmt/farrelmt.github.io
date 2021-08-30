@@ -16,9 +16,20 @@
 
 .html{
     margin-top: 40px;
+    text-align: center;
+    word-wrap: break-word;
 }
 
 .featured{
     margin: 40px;
+
+} 
+
+.featured img{
+    border-radius: 2%;
+    
 }
 
+.title{
+    text-align: center;
+}

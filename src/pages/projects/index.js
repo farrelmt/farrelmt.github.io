@@ -38,7 +38,7 @@ export const query = graphql`
           stack
           thumb {
             childImageSharp {
-              fluid {
+              fluid(quality: 10) {
                 ...GatsbyImageSharpFluid
               }
             }
